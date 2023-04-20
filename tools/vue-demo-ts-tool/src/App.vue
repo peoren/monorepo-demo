@@ -3,7 +3,8 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  vue-demo-ts
+  rush
+  vue-demo-ts-tool
 </template>
 
 <style scoped>

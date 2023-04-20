@@ -337,12 +337,8 @@
       "projectFolder": "tools/vue-demo-ts"
     },
     {
-      "packageName": "vue-demo-2",
-      "projectFolder": "tools/vue-demo-2"
-    },
-    {
-      "packageName": "vue-demo-3",
-      "projectFolder": "app/vue-demo-3"
+      "packageName": "vue-demo-ts-tool",
+      "projectFolder": "tools/vue-demo-ts-tool"
     }
     // {
     //   /**
