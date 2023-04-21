@@ -4,4 +4,6 @@
 ### TODO
 - [x] 基本仓库搭建
 - [x] 项目之间页面代码互相引用
+- [x] prettier
+- [x] eslint
 - [ ] git上传hook
