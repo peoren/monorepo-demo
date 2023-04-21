@@ -1,11 +1,14 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-
+import Tool from 'vue-demo-ts-tool/src/App.vue'
+import ToolPage from 'vue-demo-ts-tool/src/components/tool-page.vue'
 </script>
 
 <template>
-  vue-demo-ts-tool
-  <HelloWorld :msg="'123'"></HelloWorld>
+  rush
+  main
+  <Tool></Tool>
+  <ToolPage></ToolPage>
 </template>
 
 <style scoped>

@@ -339,6 +339,10 @@
     {
       "packageName": "vue-demo-ts-tool",
       "projectFolder": "tools/vue-demo-ts-tool"
+    },
+    {
+      "packageName": "main-app",
+      "projectFolder": "app/main-app"
     }
     // {
     //   /**

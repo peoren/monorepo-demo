@@ -5,6 +5,23 @@ importers:
   .:
     specifiers: {}
 
+  ../../app/main-app:
+    specifiers:
+      '@vitejs/plugin-vue': ^4.1.0
+      typescript: ^4.9.3
+      vite: ^4.2.0
+      vue: ^3.2.47
+      vue-demo-ts-tool: workspace:*
+      vue-tsc: ^1.2.0
+    dependencies:
+      vue: 3.2.47
+      vue-demo-ts-tool: link:../../tools/vue-demo-ts-tool
+    devDependencies:
+      '@vitejs/plugin-vue': 4.1.0_vite@4.2.0+vue@3.2.47
+      typescript: 4.9.5
+      vite: 4.2.0
+      vue-tsc: 1.2.0_typescript@4.9.5
+
   ../../tools/vue-demo-ts:
     specifiers:
       '@vitejs/plugin-vue': ^4.1.0
