@@ -15,8 +15,5 @@
 # 该钩子被允许编辑 commit 消息。
 
 # 该示例强制要求 commit 消息中至少包含一定数量的单词。
-if [ `cat $1 | wc -w` -lt 3 ]; then
-  echo ""
-  echo "Invalid commit message: The message must contain at least 3 words."
-    exit 1
-fi
+# run commitlint
+node common/scripts/install-run-rush.js commitlint --edit "$1"
