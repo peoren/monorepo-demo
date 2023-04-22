@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+
+let a = 'a'
 </script>
 
-<template>
-  vue-demo-ts
-</template>
+<template>vue-demo-ts</template>
 
 <style scoped>
 .logo {
@@ -13,9 +13,11 @@ import HelloWorld from './components/HelloWorld.vue'
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
