@@ -14,6 +14,6 @@
 # 当遇到问题后，该钩子会以非零状态码退出并显示出合适的消息。
 # 该钩子被允许编辑 commit 消息。
 
-# 该示例强制要求 commit 消息中至少包含一定数量的单词。
+# 该示例强制要求 commit 消息中复合commitlint规范的描述文本。
 # run commitlint
 node common/scripts/install-run-rush.js commitlint --edit "$1"
